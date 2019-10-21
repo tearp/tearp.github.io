@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Light Theme</title>
+<title>Idle Hand</title>
 <link href="file:///C|/Users/travi/AppData/Roaming/Adobe/Dreamweaver CC 2019/en_US/Configuration/Temp/Assets/eam821B.tmp/css/singlePageTemplate.css" rel="stylesheet" type="text/css">
 <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
@@ -34,18 +34,31 @@
     </nav>
   </header>
   <!-- Hero Section -->
-  <section class="hero" id="hero">
-    <h2 class="hero_header">BEAR WITH US. THIS WEBSITE IS UNDER CONSTRUCTION.</h2>
-	<h3 class="hero_header">IN THE MEANTIME, YOU CAN CLICK THE "WORK WITH US" BUTTON.</h3>
-	<div class="button">Work With Us</div>
+  <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
   </section>
   <!-- About Section -->
-  <section class="about" id="about">
-    <h2 class="hidden">About</h2>
-    <p class="hidden" "text_column">We'll use this later for design work previews.</p>
-    <p class="hidden" "text_column">We'll use this later for design work previews.</p>
-    <p class="hidden" "text_column">We'll use this later for design work previews.</p>
-  </section>
   <!-- More Info Section -->
   <footer>
     <article class="hidden" "footer_column">
