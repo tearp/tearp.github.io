@@ -33,13 +33,31 @@
       </ul>
     </nav>
   </header>
-<form action="https://formspree.io/travis@idlehandfirm.com" method="POST">
-  <label>NAME</label>
-	  <input type="text" id="fname" name="firstname">
-  <label>EMAIL</label>
-	  <input type="text" id="email" name="emailaddress">
-  <input type="submit" value="Send">
-</form>
+  <!-- Hero Section -->
+  <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <input type="text" id="cname" name="countryname" placeholder="Country..">
+	  
+	<label for="email">Email Address</label>
+	<input type="text"	id="email" name="emailaddress" placeholder="Email..">
+		   
+    <label for="phone">Phone(optional)</label)>
+	<input type="text" id="phone" name="phonennumber" placeholder="Phone..">
+	
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Enter a description of the design work you're looking for..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit" a href="mailto:travis@idlehandfirm.com">
+
+  </form>
 </div>
   <!-- About Section -->
   <!-- More Info Section -->
