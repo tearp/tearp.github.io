@@ -49,8 +49,9 @@ body {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	height: 700px;
+	height: 100%;
 	background-color: #FFFFFF;
+	/* [disabled]-o-object-fit: cover; */
 }
 /* Navigation */
 header {
@@ -78,6 +79,10 @@ nav {
 header nav ul {
 	list-style: none;
 	float: right;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
 }
 nav ul li {
 	float: left;
